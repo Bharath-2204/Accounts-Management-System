@@ -1,0 +1,75 @@
+.reg
+    img {
+        width: 40%;
+        height: 80%;
+        border-color: transparent;
+        position: absolute;
+        left:20px;
+        top:80px;
+
+    }
+
+.log img{
+    width: 40%;
+        height: 80%;
+        border-color: transparent;
+        position: absolute;
+        left:800px;
+        top:100px;
+}
+
+.regbtn{
+    background-color:#9f9ffad8;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px;
+    color: rgb(19, 19, 19);
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s; 
+    position: absolute;
+    top:330px;
+    left:200px;
+
+}
+
+.regbtn:hover{
+    box-shadow: 0 14px 28px 0 rgba(1, 1, 1, 0.24),0 27px 70px 0 rgba(0,0,0,0.19);
+    background-color:rgb(52, 48, 48);
+    color: white; 
+}
+
+.logbtn{
+    background-color:#9f9ffad8;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px;
+    color: rgb(19, 19, 19);
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s; 
+    position: absolute;
+    top:240px;
+    left:935px;
+}
+
+.logbtn:hover{
+    box-shadow: 0 14px 28px 0 rgba(1, 1, 1, 0.24),0 27px 70px 0 rgba(0,0,0,0.19);
+    background-color:rgb(52, 48, 48);
+    color: white;   
+}
+

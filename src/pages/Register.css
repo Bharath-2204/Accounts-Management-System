@@ -1,0 +1,134 @@
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"]
+select{
+  
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display:inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    
+}
+
+input[type="Submit"]{
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="button"]{
+    width:100%;
+    background-color: #40453e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("https://i.postimg.cc/5N5tLX38/Whats-App-Image-2022-10-25-at-22-12-09.jpg");
+    /* background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ); */
+    
+    /* filter: blur(8px); */
+    
+    position:absolute;
+    left:0px;
+    top:0px;
+    filter: blur(3px);
+    /* Full height */
+    height: 790px; 
+    width:1530px;
+    
+    margin-top: 0%;
+    display: flex;
+    padding: 0%;
+    /* Center and scale the image nicely */
+   
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+
+  .box{
+    position:absolute;
+    left:520px;
+    top:150px;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .bgm{
+    background-color: #e21e1e;
+    
+  }
+
+  .register{
+    background-color: #afd4f5;
+    
+    border-style: solid;
+    border-radius: 45px;
+    border-width: 5px;
+    border-color:whitesmoke;
+    padding:20px 42px;
+    position:absolute;
+    top:25px;
+    left:20px;
+    line-height: 10px;
+    width: 420px;
+    height: 510px;
+    color: rgb(7, 7, 7);
+  }
+
+  .register:hover{
+    box-shadow: 0 14px 28px 0 rgba(1, 1, 1, 0.24),0 27px 70px 0 rgba(0,0,0,0.19);
+    background-color:rgb(227, 233, 234);
+    color: rgb(16, 16, 16);
+    border-color: black;
+  }
+
+  .passwordd{
+    position: absolute;
+    top:260px;
+  }
+
+  .submit{
+    position: absolute;
+    top:420px;
+    left:170px;
+  }
+  .conpassword{
+    position: absolute;
+    top:360px;
+    width: 390px;
+    left:55px;
+    height:45px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .cpass{
+    position: absolute;
+    top:320px;
+    left:150px;
+    
+  } 
