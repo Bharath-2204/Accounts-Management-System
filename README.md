@@ -15,5 +15,7 @@ format.
 <h2>Tools Used:</h2>
 ->Frontend: ReactJS<br/>
 ->Backend: ExpressJS, NodeJs, Redux<br/>
-->Database: MySQL
+->Database: MySQL<br/>
+
+<h3>More information about this project can be found in the REPORT document along with screenshots of the output.</h3>
 
